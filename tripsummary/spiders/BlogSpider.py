@@ -7,7 +7,7 @@ import re
 
 class BlogSpider(scrapy.Spider):
 	name = 'BlogSpider'
-	# allowed_domains = ['http://theblondeabroad.com/2017/02/16/visiting-robot-restaurant-in-tokyo/']
+	start_urls = ['http://theblondeabroad.com/2017/02/16/visiting-robot-restaurant-in-tokyo/']
 
 
 	def parse(self, response):
